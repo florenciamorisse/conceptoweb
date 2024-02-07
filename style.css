@@ -1,0 +1,129 @@
+:root{
+    --grey:#F8F8F5;
+    --black:#282727;
+    --yellow:#F7AB04;
+    --green:#427662;
+    --font-Hind: 'Hind', sans-serif;
+    --font-Montserrat:'Montserrat', sans-serif;
+
+}
+
+html{
+    box-sizing: border-box;
+    font-family: var(--font-Montserrat);
+    font-size: 1.2rem;
+    scroll-behavior: smooth;
+    
+    
+}
+
+body{   
+    margin: 0; 
+    background-color: var(--grey);
+    color: var(--black) ;
+    
+    
+    
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.header{
+    padding-bottom: 1rem;
+    padding-top:  0;
+    width: 100%;
+    position: fixed;
+}
+.header_claro{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 14px;
+    margin-right:9rem;
+    background-color: var(--grey);
+    
+    
+}
+.header_claro img{
+    height: 20px;
+    padding-right: 0.5%;
+    
+
+}
+.header_claro a{
+    text-decoration: none;
+    color: var(--black);
+    padding-right: 2%;
+    
+}
+.header_claro p{
+    padding-right: 2%;
+}
+.header_oscuro{
+    
+    background-color: var(--black);
+    font-family: var(--font-Hind);
+    font-weight: medium;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;       
+}
+.header_oscuro a{
+    text-decoration: none;
+    color: white;
+}
+#bold{
+    font-weight: bold;
+    color: var(--yellow);
+    margin-right:9rem; 
+}
+
+.logo_cabecera{
+    width: 83px;
+    height: 85px;
+    margin-left:9rem; 
+}
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+.navigation ul li{
+    display: inline-block;
+}
+.navigation ul li a{
+    display: block;
+    padding: 0.5rem;
+    transition: all 0.4s linear;
+    border-radius: 20px;
+}
+.navigation ul li a:hover{
+    background: rgb(130, 130, 130);
+}
+
+/* Main */
+main{
+    padding: 9rem 9rem 2rem 9rem;
+
+
+
+}
+
+/* Footer */
+footer{
+    background-color: var(--black);
+    color: var(--grey);
+    font-size: 14px;
+    padding: 1rem 0;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer img{
+    height: 30px;
+}
