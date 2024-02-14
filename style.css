@@ -143,16 +143,29 @@ body{
 main{
     padding: 9rem 9rem 2rem 9rem;
 }
+/* .fondo_primera_parte{
+    width: 100%;
+} */
+
 
 /************ primera pantalla *************/
 /*******  primera parte columna 1 ******/
 .col01{
     padding: 0;
+    
 }
 
 figure{
     margin: 0;
+    /* max-height:420px ; */
 }
+/* .lalala{
+    max-height:420px ; 
+} */
+/* .col01{
+    max-height:420px ;
+
+} */
 
 .titulo{
     font-family: var(--font-Hind);
@@ -160,12 +173,12 @@ figure{
     text-shadow: -4px 2px 2px rgba(0, 0, 0, .25);
     font-size: clamp(2.25rem, 5vw, 3.75rem );
     margin: 0;
-    line-height: 120%;
+    line-height: 110%;    
 }  
 .txt{
     font-family: var(--font-Hind);
     font-size: clamp(1rem, 5vw, 1.5rem );
-    margin: 35px 0 40px 0;
+    margin: 20px 0 20px 0;
     line-height: 140%;
 }
 
@@ -198,6 +211,9 @@ figure{
     display: none;
 }
 .display{
+    display: none;
+}
+.img0302{
     display: none;
 }
 /******* fin primera parte columna 1 ******/
@@ -252,21 +268,27 @@ footer > p{
 
 
 
-
-@media screen and (max-width:1280px) {
+@media screen and (max-width:1326px) {
     .txt{
-        margin: 10px 0 10px 0;
+        margin: 15px 0 15px 0;
+        line-height: 120%;
+        
+    } 
+    
+    .titulo{
+        line-height: 110%;
     }
-    /* .col01{
-        width: 40%;
-    }
-    .col02{
-        width: 30%;
-    }
-    .col03{
-        width: 30%;
-    } */
+
 }
+
+
+@media screen and (max-width:1260px) {
+    
+    main{
+        padding: 9rem 3rem 2rem 3rem;
+    }  
+}
+
 @media screen and (max-width:1110px) {
     .btn_escribinos{
         height: 40px;
@@ -284,7 +306,7 @@ footer > p{
 }
 @media screen and (max-width:1050px) {
     .txt{
-        margin: 5px 0 5px 0;
+        margin: 15px 0 15px 0;
         line-height: 120%;
         
     } 
@@ -297,18 +319,34 @@ footer > p{
 @media screen and (max-width: 1004px) {
     .col02, .col03{
         padding-right: 0;
-    }
+       
+    }    
 }
-@media screen and (max-width: 966px) {
-    .titulo{
-        line-height: 105%;
+@media screen and (max-width: 991px) {
+    .puntos01{
+        display: none;
     }
-    .txt{
-        line-height: 110%;
+    .puntos02{
+        
+        margin: 150px 0 0 -320px;
     }
-    main{
-        padding: 5rem 3rem 2rem 3rem;
+    .img01{
+        margin-top: 20px;
     }
+    .img02{
+        top: 40px;
+    }
+    .fondo_primera_parte{
+        width: 115%;
+    }
+    
+}
+@media screen and (max-width: 907px) {
+ 
+    .fondo_primera_parte{
+        width: 105%;
+    }
+    
 }
     
 
@@ -348,11 +386,71 @@ footer > p{
     }
     .navigation ul li a{        
         border-radius:0;
-    }
-    
+    } 
     
     main{
         padding: 5rem 3rem 2rem 3rem;
     }
-
+}
+@media screen and (max-width: 768px) {
+    .puntos02{
+        bottom: 0;
+        margin-left: -350px;
+    }
+    .img03{
+        margin-top: 10px;
+        margin-left: 40px;
+        height: 250px;
+    }
+    .fondo_primera_parte{
+        width: 120%;
+    }
+}
+@media screen and (max-width: 576px) {
+    .fondo_primera_parte{
+        width: 110%;
+    }
+    .img01{
+        height: 200px;
+    }
+    .puntos02{
+        display: none;
+        z-index: 1;
+    }
+    .puntos01{
+        display: inline-block;
+        margin-left: 100px;
+    }
+    .img0302{
+        display: inline-block;
+        position: relative;
+        height: 200px;
+        margin-top: 15px;
+        margin-left: 30px;
+        z-index: 3;
+    }
+    .img03{
+        display: none;
+    }
+}
+@media screen and (max-width: 532px) {
+    
+    .img01{
+        width: 45%;
+        height: auto;
+    }   
+    .puntos01{  
+        height: 100px;    
+        margin-left: 100px;
+    }
+    .img0302{
+             
+        width: 40%;   
+        height: auto;
+    }
+    .col02{
+        justify-content: space-between;
+        
+    }
+    
 }
