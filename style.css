@@ -25,7 +25,7 @@ body{
     
     
 }
-
+/************* cabecera **************/
 .container{
     margin: 0;
     padding: 0;
@@ -33,10 +33,12 @@ body{
     
 }
 .header{
-    padding-bottom: 1rem;
+    padding-bottom: 0rem;
     padding-top:  0;
     width: 100%;
     position: fixed;
+    z-index: 4;
+    background-color: var(--grey);
 }
 .header_claro{
     
@@ -137,12 +139,100 @@ body{
 }
 
 
-/* Main */
+/***************** Main *****************/
 main{
     padding: 9rem 9rem 2rem 9rem;
 }
 
-/* Footer */
+/************ primera pantalla *************/
+/*******  primera parte columna 1 ******/
+.col01{
+    padding: 0;
+}
+
+figure{
+    margin: 0;
+}
+
+.titulo{
+    font-family: var(--font-Hind);
+    font-weight: 600;
+    text-shadow: -4px 2px 2px rgba(0, 0, 0, .25);
+    font-size: clamp(2.25rem, 5vw, 3.75rem );
+    margin: 0;
+    line-height: 120%;
+}  
+.txt{
+    font-family: var(--font-Hind);
+    font-size: clamp(1rem, 5vw, 1.5rem );
+    margin: 35px 0 40px 0;
+    line-height: 140%;
+}
+
+.btn_escribinos{
+    background-color: var(--black);
+    color: var(--grey);
+    border-radius: 70px;
+    height: 50px;
+    width: 200px;
+}
+.sobre_papel_amarillo{
+    height: 25px;
+    margin: 5px;
+}
+.sobre_papel_negro{
+    
+    height: 25px;
+    margin: 5px;
+    
+}
+.btn_escribinos:hover{
+    background-color: var(--yellow);
+    color: var(--black);   
+}
+.btn_escribinos:hover .sobre_papel_negro{
+    display: inline-block;
+
+}
+.btn_escribinos:hover .sobre_papel_amarillo{
+    display: none;
+}
+.display{
+    display: none;
+}
+/******* fin primera parte columna 1 ******/
+
+
+/*******  primera parte columna 2 ******/
+.img01{
+    position: relative;
+    z-index: 3;
+}
+.img02{
+    position: relative;
+    z-index: 3;
+}
+.puntos01{
+    margin: -130px 0 0 260px;
+    
+}
+
+/******* fin primera parte columna 2 ******/
+
+/*******  primera parte columna 3 ******/
+.img03{
+    position: relative;
+    /* relative para que funcione el z-index */
+    margin-top: 17%;
+    z-index: 3;
+}
+.puntos02{
+    position: absolute;
+    margin: 0 0 0 -320px;
+}
+/******* fin primera parte columna 3 ******/
+
+/**************** Footer **************/
 footer{
     background-color: var(--black);
     color: var(--grey);
@@ -159,7 +249,71 @@ footer > p{
     margin: 0;
 }
 
+
+
+
+
+@media screen and (max-width:1280px) {
+    .txt{
+        margin: 10px 0 10px 0;
+    }
+    /* .col01{
+        width: 40%;
+    }
+    .col02{
+        width: 30%;
+    }
+    .col03{
+        width: 30%;
+    } */
+}
+@media screen and (max-width:1110px) {
+    .btn_escribinos{
+        height: 40px;
+        width: 180px;
+        padding-top: 3px;
+
+    }
+    .sobre_papel_amarillo{
+        height: 20px;
+    }
+    .sobre_papel_negro{        
+        height: 20px;    
+    }  
+
+}
+@media screen and (max-width:1050px) {
+    .txt{
+        margin: 5px 0 5px 0;
+        line-height: 120%;
+        
+    } 
+    
+    .titulo{
+        line-height: 110%;
+    }
+
+}
+@media screen and (max-width: 1004px) {
+    .col02, .col03{
+        padding-right: 0;
+    }
+}
+@media screen and (max-width: 966px) {
+    .titulo{
+        line-height: 105%;
+    }
+    .txt{
+        line-height: 110%;
+    }
+    main{
+        padding: 5rem 3rem 2rem 3rem;
+    }
+}
+    
+
 @media screen and (max-width: 824px) {
+    
     .header_claro{
         display: none;
     }
@@ -200,4 +354,5 @@ footer > p{
     main{
         padding: 5rem 3rem 2rem 3rem;
     }
+
 }
