@@ -19,6 +19,9 @@ body {
   background-color: var(--grey);
   color: var(--black);
 }
+.row {
+  width: 110%;
+}
 /************* cabecera **************/
 .container {
   margin: 0;
@@ -227,22 +230,37 @@ figure {
   margin: 0 0 0 -320px;
 }
 /******* fin primera parte columna 3 ******/
-/******* segunda parte columna 3 ******/
-.vision_global {
+/******* segunda parte  ******/
+.parte02 p,
+.parte03 p,
+.parte04 p {
+  font-size: 1.1rem;
+  line-height: 160%;
+  margin: 30px 0 30px 0;
+}
+.vision_global,
+.credibilidad {
   display: flex;
 }
 .txt_vertical {
   text-transform: uppercase;
   writing-mode: vertical-lr;
   transform: rotate(180deg);
-  padding-top: 30px;
 }
-.img04 {
+.txt_vertical01 {
+  padding-top: 40px;
+}
+.txt_vertical02 {
+  padding-top: 60px;
+}
+
+.img04, .img05 {
   margin-top: 50px;
   max-width: 100%;
   height: 85%;
 }
-.texto01 {
+.texto01,
+.texto03 {
   text-align: center;
   padding: 100px 0 0 100px;
   justify-content: center;
@@ -254,15 +272,38 @@ hr {
   margin: auto;
   /* padding: 2px; */
 }
-.aquellos{
-  margin-top: 20px;
-}
-.flecha_verde_desk{
+
+.flecha_verde_desk {
   height: 25%;
-  width: 25%;
+  width: 30%;
   position: relative;
-  left: 40%;
-  top: -120px;
+  left: 35%;
+  top: -165px;
+}
+.parte03 {
+  margin-top: -450px;
+}
+.credibilidad {
+  justify-content: right;
+}
+.texto02 {
+  padding: 120px 30px 0 30px;
+  text-align: center;
+}
+.img06 {
+  position: absolute;
+  z-index: 3;
+}
+.txt_vertical03 {
+  position: relative;
+  margin-top: 324px;
+}
+.puntos03 {
+  height: 220px;
+  width: auto;
+  position: relative;
+  left: 55%;
+  top: -10px;
 }
 
 /**************** Footer **************/
@@ -282,6 +323,32 @@ footer > p {
   margin: 0;
 }
 
+
+
+
+
+@media screen and (max-width: 1754px) {
+  .flecha_verde_desk {
+    height: 20%;
+    width: 32%;    
+    left: 40%;
+    
+  }
+}
+@media screen and (max-width: 1705px) {
+  .parte03 {
+    margin-top: -350px;
+  }
+  .texto01{
+    padding-top: 50px;
+  }
+}
+@media screen and (max-width: 1462px) {
+  .parte03 {
+    margin-top: -250px;
+  }
+}
+
 @media screen and (max-width: 1326px) {
   .txt {
     margin: 15px 0 15px 0;
@@ -296,6 +363,24 @@ footer > p {
 @media screen and (max-width: 1260px) {
   main {
     padding: 9rem 3rem 2rem 3rem;
+  }
+  .row {
+    width: 100%;
+  }
+  .flecha_verde_desk{
+    left:35% ;
+  }
+}
+@media screen and (max-width: 1199px) {  
+  .texto02{
+    padding-top: 50px;
+  }
+  .flecha_verde_desk {
+    left: 30%;    
+  }
+  .texto03{
+   padding-left: 150px ;
+   padding-top: 30px;
   }
 }
 
@@ -321,6 +406,7 @@ footer > p {
   .titulo {
     line-height: 110%;
   }
+  
 }
 @media screen and (max-width: 1004px) {
   .col02,
@@ -342,12 +428,62 @@ footer > p {
     top: 40px;
   }
   .fondo_primera_parte {
-    width: 115%;
+    width: 110%;
+  }
+  .row {
+    width: 110%;
+  }
+  .flecha_verde_desk {
+    height: 20%;
+    width: 25%;    
+    left: 35%;
+    top: -145px;    
+  }
+  .texto01{
+    padding-top: 25px;
+  }
+  .img06{
+    width: 400px;
+  }
+  .txt_vertical03{
+    margin-top: 280px;
+  }
+  .texto03{
+    padding-top: 0px;
+  }
+  .puntos03{
+    height: 40%;
+    
   }
 }
 @media screen and (max-width: 907px) {
   .fondo_primera_parte {
     width: 105%;
+  }
+  .parte03{
+    margin-top: -170px;
+  }
+  .parte02 p,
+  .parte03 p,
+  .parte04 p {
+    font-size: 1rem;
+    line-height: 160%;    
+  }
+  .img06{
+    width: 350px;
+  }
+  .txt_vertical03{
+    margin-top: 220px;
+  }
+  .puntos03{
+    height: 30%;
+    
+  }
+  .texto03{
+    padding-left: 92px;
+    padding-top: 0px;
+    padding-right: 52px;
+
   }
 }
 
@@ -390,8 +526,14 @@ footer > p {
   main {
     padding: 5rem 3rem 2rem 3rem;
   }
+  .row{
+    width: 105%;
+  }
+  .parte03 {
+    margin-top: -150px;
+  }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .puntos02 {
     top: 452px;
     margin-left: -350px;
