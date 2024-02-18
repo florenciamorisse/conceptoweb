@@ -289,11 +289,14 @@ figure {
   justify-content: center;
 }
 hr {
-  height: 2px;
+  
   width: 50%;
   background-color: var(--yellow);
   margin: auto;
   /* padding: 2px; */
+}
+hr:not([size]) {
+  height: 2px;
 }
 
 .flecha_verde_desk {
@@ -332,7 +335,44 @@ hr {
   top: -10px;
 }
 /**************** Parte5 **************/
+.parte05{
+  margin-top: 75px;
+  height: 715px;
+}
 
+.txt_somos{
+  font-family: var(--font-Hind);
+  font-size: 40px;
+  font-weight: 200;
+  letter-spacing: 0.5rem;
+  padding-bottom: 40px;
+
+}
+.logotipo{
+  width: 400px;
+  height: 100px;
+}
+.start-50 {
+  left: 30%!important;
+}
+.flecha03{
+  position: relative;
+  top: -70%;
+  left: 61%;
+  z-index: 3;
+  transform: rotate(16deg);
+  width: 73%;
+  
+
+}
+.titulo_diseniamos{
+  font-family: var(--font-Hind);
+  font-weight: 400;
+  font-size: 42px;
+  position: relative;
+  z-index: 3;  
+  top: -12%;
+}
 .circulo {
 	width: 26rem;
 	height: 26rem;
@@ -345,6 +385,9 @@ hr {
   margin:0px auto;
   padding:3%;
   box-shadow: -9px 9px 14px rgba(16, 16, 20, 0.35);
+  position: relative;
+  top: -230px;
+
 }
 
 .circulo > h2 {
@@ -352,8 +395,23 @@ hr {
   font-weight: 400;
 	color: var(--black);
 	font-size: 1.3rem;
-	
 }
+.btn2{
+  position: relative;
+  top: -25%;
+}
+.aMedida{
+  font-family:var(--font-Hind) ;
+  font-size: clamp(3rem, 5vw, 2rem);
+  /* font-size: 84px; */
+  font-weight: 600;
+  line-height: 100%;
+}
+/**************** Servicios **************/
+.servicios{
+  display: flex;
+}
+
 
 /**************** Footer **************/
 footer {
