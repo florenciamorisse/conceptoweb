@@ -408,8 +408,21 @@ hr:not([size]) {
   line-height: 100%;
 }
 /**************** Servicios **************/
+.linea_corta{
+  width: 10%;
+  margin: 24px 8px 40px 0 ;
+}
 .servicios{
   display: flex;
+  font-family:var(--font-Hind) ;
+  font-weight: 600;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.linea_larga{
+  width: 80%;
+  margin: 24px 0 40px 8px ;
 }
 
 
