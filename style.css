@@ -617,8 +617,8 @@ footer > p {
     display: block;
     position: relative;
     z-index: 1;
-    height: 55%;
-    width: 55%;
+    height: 234px;
+    width: 312px;
     left: -120px;
     top: 140px;
   }
@@ -753,6 +753,14 @@ footer > p {
   .col02{
     margin-top: -75px;
   }
+  .flecha_verde{
+    height: 210px;
+    width: 280px;
+    left: -130px;
+  }
+  .col01 {
+    margin-top: 11px;
+}
 }
 
 @media screen and (max-width: 493px) {
@@ -807,8 +815,8 @@ footer > p {
 
 @media screen and (max-width: 455px) {
   .flecha_verde{
-    left: -90px;
-    top: 110px;
+    left: -145px;
+    top: 136px;
   }
   .puntosMobile01{
     height: 111px;
@@ -891,6 +899,9 @@ footer > p {
 
 }
 @media screen and (max-width: 371px) {
+  .text-center{
+    top: -134px;
+  }
   .col01{
     margin-top: -10px;
   }
@@ -912,10 +923,10 @@ footer > p {
     top: -112px;
   }
   .flecha_verde{
-    height: 50%;
-    width: 50%;
-    top: 50px;
-    left: -77px;
+    height: 150px;
+    width: 200px;
+    top: 125px;
+    left: -109px;
   }
   .textMobile{
     position: relative;
