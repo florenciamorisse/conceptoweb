@@ -912,14 +912,37 @@ footer > p {
     top: 156px;
     left: 22%;
   }
-  .txt_somos{
+  .parte05{
+    height: 1150px;
+    margin-top: 100px;
+  }
+  .txt_somos, .aMedida, .img07{
     display: none;
+  }
+  .img07mobile{
+    display: block;
   }
   .flecha03{
     display: none;
   }
   .txt_somosMobile{
-    display: flex;
+    display: block;
+
+  }
+  .containerCirculo{
+    margin-top: 125px;
+  }
+  .circulo{
+    top: -232px;
+  }
+  .logotipo{
+    margin-top: -100px;
+  }
+  .titulo_diseniamos{
+    margin: 64px 0 0 0;
+  }
+  .btn2{
+    top: -18%;
   }
 }
 @media screen and (max-width: 575px) {
