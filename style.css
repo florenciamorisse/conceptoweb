@@ -346,6 +346,9 @@ hr:not([size]) {
   letter-spacing: 0.5rem;
   padding-bottom: 40px;
 }
+.txt_somosMobile{
+  display: none;
+}
 .logotipo {
   width: 400px;
   height: 100px;
@@ -903,6 +906,15 @@ footer > p {
   .puntosMobile04 {
     top: 156px;
     left: 22%;
+  }
+  .txt_somos{
+    display: none;
+  }
+  .flecha03{
+    display: none;
+  }
+  .txt_somosMobile{
+    display: flex;
   }
 }
 @media screen and (max-width: 575px) {
