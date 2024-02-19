@@ -482,6 +482,9 @@ footer > p {
   margin: 0;
 }
 
+
+
+
 @media screen and (max-width: 1754px) {
   .flecha_verde_desk {
     height: 20%;
@@ -507,6 +510,20 @@ footer > p {
   top: -58%;
   left: 47%;
  }
+ .card{
+  height:493px ;
+  
+ }
+ .card_img{
+  width: 65px;
+
+ }
+ .card-title{
+  font-size: 1.2rem;
+ }
+ .card-text{
+  font-size: 0.9rem;
+ }
 }
 @media screen and (max-width: 1462px) {
   .parte03 {
@@ -515,12 +532,30 @@ footer > p {
   .texto02 {
     padding-top: 50px;
   }
+  .card{
+    height:457px ;
+    
+   }  
+   
+   .card-text{
+    font-size: 0.8rem;
+    font-weight: 200;
+   }
 }
 @media screen and (max-width: 1417px) {
   .flecha03{
    width: 64%;
    top: -57%;
   }
+  .card{
+    height:436px ;    
+   }   
+   .card-title{
+    font-size: 1.1rem;
+   }
+   .card-text{
+    font-size: 0.75rem;
+   }
  }
 
 @media screen and (max-width: 1326px) {
@@ -538,6 +573,19 @@ footer > p {
     width: 57%;
 
    }
+   .card{
+    height:436px ;
+    
+   }
+   .card_img{
+    width: 55px;
+  
+   }
+   .card-title{
+    margin-bottom: 1rem;
+    margin-top: 0.6rem;
+   }
+   
 }
 
 @media screen and (max-width: 1260px) {
@@ -549,6 +597,9 @@ footer > p {
   }
   .flecha_verde_desk {
     left: 35%;
+  }
+  .card{
+    height: 400px;
   }
 }
 @media screen and (max-width: 1199px) {
@@ -573,6 +624,10 @@ footer > p {
     
     top: -48%;
 
+   }
+   .card-title{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
    }
 }
 
@@ -944,6 +999,7 @@ footer > p {
   }
   .titulo_diseniamos{
     margin: 10px 0 46px 0;
+    padding: 7px ;
   }
   .btn2{
     top: -26%;
@@ -998,6 +1054,12 @@ footer > p {
     height: 40px;
     width: 180px;
     padding-top: 3px;
+  }
+  .parte05{
+    height: 920px;
+  }
+  .titulo_diseniamos{    
+    padding-bottom: 23px ;
   }
 }
 
@@ -1066,6 +1128,32 @@ footer > p {
     top: 110px;
     left: 100px;
   }
+  .parte05{
+    height:900px ;
+    margin-top: 65px;
+  }
+  .logotipo{
+    width: 265px;
+    height: 66px;
+  }
+  .containerCirculo{
+    margin-top: 90px;
+  }
+  .circulo{
+    width: 26rem;
+    height: 26rem;
+    left: -67px; 
+   }
+   .img07mobile{
+    
+    height: 310px;
+    width: 437px;
+    margin-top: -77px;
+    transform: rotate(10deg);
+   }
+   .titulo_diseniamos{
+    margin-top: 30px;
+   }
 }
 
 @media screen and (max-width: 455px) {
