@@ -364,6 +364,9 @@ hr:not([size]) {
   transform: rotate(16deg);
   width: 73%;
 }
+.img07mobile{
+  display: none;
+}
 .titulo_diseniamos {
   font-family: var(--font-Hind);
   font-weight: 400;
