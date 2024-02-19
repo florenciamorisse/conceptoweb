@@ -358,10 +358,10 @@ hr:not([size]) {
 }
 .flecha03 {
   position: relative;
-  top: -70%;
-  left: 61%;
+  top: -68%;
+  left: 52%;
   z-index: 3;
-  transform: rotate(16deg);
+  /* transform: rotate(16deg); */
   width: 73%;
 }
 .img07mobile{
@@ -502,6 +502,7 @@ footer > p {
  .flecha03{
   width: 61%;
   top: -58%;
+  left: 47%;
  }
 }
 @media screen and (max-width: 1462px) {
@@ -529,8 +530,9 @@ footer > p {
     line-height: 110%;
   }
   .flecha03{
-    transform: rotate(6deg);
-    top: -54%;
+    /* transform: rotate(6deg); */
+    top: -45%;
+    width: 57%;
 
    }
 }
