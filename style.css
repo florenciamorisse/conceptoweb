@@ -492,6 +492,12 @@ footer > p {
     padding-top: 60px;
   }
 }
+@media screen and (max-width: 1570px) {
+ .flecha03{
+  width: 61%;
+  top: -58%;
+ }
+}
 @media screen and (max-width: 1462px) {
   .parte03 {
     margin-top: -250px;
@@ -500,6 +506,12 @@ footer > p {
     padding-top: 50px;
   }
 }
+@media screen and (max-width: 1417px) {
+  .flecha03{
+   width: 64%;
+   top: -57%;
+  }
+ }
 
 @media screen and (max-width: 1326px) {
   .txt {
@@ -510,6 +522,11 @@ footer > p {
   .titulo {
     line-height: 110%;
   }
+  .flecha03{
+    transform: rotate(6deg);
+    top: -54%;
+
+   }
 }
 
 @media screen and (max-width: 1260px) {
@@ -541,6 +558,11 @@ footer > p {
   .txt_vertical01 {
     padding-top: 115px;
   }
+  .flecha03{
+    
+    top: -48%;
+
+   }
 }
 
 @media screen and (max-width: 1110px) {
@@ -559,6 +581,47 @@ footer > p {
     width:100% ;
   } */
 }
+@media screen and (max-width: 1065px) {
+  .txt_somos{
+    font-size: 32px;    
+  }
+  .logotipo{
+    width: 350px;
+    height: 87px;
+  }
+ .circulo{
+  width: 20rem;
+  height: 20rem;
+  top: -196px;
+
+ }
+ .titulo_diseniamos{
+  font-size: 37px;
+  margin-bottom:2.2rem ;
+  line-height: 112%;
+ }
+ .circulo h2{
+  margin-top: 28px;
+  font-size: 1rem;
+  line-height: 147%;
+ }
+ .aMedida{
+  font-size: 2.5rem;
+ }
+ .parte05{
+  height: 600px;
+ }
+ .puntos03{
+  top: -41px;
+ }
+ .flecha03{
+  top: -55%;
+ }
+ .btn2{
+  top: -28%;
+ }
+  
+}
 @media screen and (max-width: 1050px) {
   .txt {
     margin: 15px 0 15px 0;
@@ -567,6 +630,9 @@ footer > p {
 
   .titulo {
     line-height: 110%;
+  }
+  .puntos03{
+    top: -43px;
   }
 }
 @media screen and (max-width: 1004px) {
@@ -588,9 +654,7 @@ footer > p {
   .img02 {
     top: 40px;
   }
-  /* .fondo_primera_parte {
-    width: 110%;
-  } */
+ 
   .row {
     width: 110%;
   }
@@ -618,6 +682,21 @@ footer > p {
   .puntos03 {
     height: 40%;
   }
+  .parte02 p, .parte03 p, .parte04 p{
+    font-size: 0.9rem;
+  }
+  .flecha03{
+    top: -46%;
+  }
+  .aMedida{
+    font-size: 2rem;
+  }
+  .parte05{
+    height: 530px;
+  }
+  .servicios p{
+    font-size:26px ;
+  }
 }
 @media screen and (max-width: 907px) {
   /* .fondo_primera_parte {
@@ -629,7 +708,7 @@ footer > p {
   .parte02 p,
   .parte03 p,
   .parte04 p {
-    font-size: 1rem;
+    /* font-size: 0.9rem; */
     line-height: 160%;
   }
   .img06 {
@@ -692,6 +771,14 @@ footer > p {
   }
   .parte03 {
     margin-top: -150px;
+  }
+  .parte02 p,
+  .parte03 p,
+  .parte04 p {
+    font-size: 0.8rem;
+  }
+  .flecha03{
+    top: -42%;
   }
 }
 @media screen and (max-width: 767px) {
